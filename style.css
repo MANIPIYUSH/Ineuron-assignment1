@@ -1,0 +1,101 @@
+.choose{
+     
+     position: absolute;
+     left: 250px;top: 20px;
+     display: flex;
+
+}
+.list{
+    display: flex;
+    font-weight: bold;
+    
+}
+.list-item{
+
+      margin-left: 35px;
+      list-style: none;
+      
+
+}
+.logobox{
+   
+     position: relative;
+     top: 15px;left: 80px;
+
+}
+.imageshift
+{
+    position: absolute;
+     top: 95px;
+
+}
+.navbar{
+       
+}
+.hero-container-right{
+ 
+    position: absolute;
+    left: 420px; top: 80px;
+
+     
+
+}
+
+.icons span img{
+
+    position: relative;
+    left: 140px; width: 20px;
+    padding: 8px;
+      
+      
+
+}
+h4.contact-heading{
+ position: relative; 
+ left: 170px;top: 20px;
+
+}
+.button-email{
+    border-radius: 15px;
+
+
+
+}
+.button-join{
+    color: aliceblue;
+    background-color: black;
+    border-radius: 15px;
+
+}
+div.emai{
+
+    position: relative;
+    left: 110px;top: 30px;
+    
+}
+ 
+span.star img{
+
+    position: relative;
+    left: 470px;top: -250px;
+    width: 25px;
+}
+span.globe  img{
+    position: relative;
+    left: 150px;top: -250px;
+    width: 40px;
+}
+.nav-button
+{
+    position: relative;
+    left: 800px;top: -40px;
+    border-radius: 15px;
+    padding: 0 20px;
+
+}
+.button-group svg {
+
+    position: relative;
+    left: 750px;top: -12px;
+}
+

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CSS File-->
+<link rel="stylesheet" href="/style.css"/>
+<!--Font Orbition-->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap"rel="stylesheet"/>
+    <!--Font poppins-->
+   
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"/>   
+<title>Document</title>
+
+
+
+</head>
+<body>
+    <div class="container">
+        <!--Navbar selection-->
+    <section aria-label="navbar">
+    <nav class="navbar-container">
+    
+        <div class="logobox">
+           <img style="max-width: 5%;" src="/assets/Logo.png" alt="logo">
+        </div>
+    <div class="choose">
+        <ul class="list">
+          <li class="list-item">Home</li>
+          <li class="list-item">Male</li>
+          <li class="list-item">Female</li>
+          <li class="list-item">FAQ</li>
+          <li class="list-item">About</li>
+        </ul>
+    </div>
+     
+   <div class="button-group">
+    <div class="search-icon" >
+    </div>
+<svg
+  width="32"
+  height="35"
+  viewBox="0 0 32 35"
+  fill="none"
+  xmls="data:image/png;base64,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"
+>
+<path 
+d="M30.35 34.4C30.07 34.4 29.7899 34.28 29.5899 34.05L19.75 22.53C19.39 22.11 19.44 21.48 19.86 21.12C20.28 20.76 20.91 20.81 21.27 21.23L31.11 32.75C31.47 33.17 31.42 33.8 31 34.16C30.81 34.32 30.58 34.4 30.35 34.4Z"
+fill="black"/>
+
+</svg>
+</div>
+<div><button class="nav-button">Search</button></div>
+
+        </div>
+
+        </nav>
+    </section>
+
+<!--Hero Banner Section-->
+
+<section aria-label="banner">
+
+    <div class="hero-container">
+<!--          -->
+<!--patterns-->
+<!---->
+<span style="left: 4em;">
+    <img style="height:180px; width: 200px; margin-left: 130px; margin-top: 100px; " src="/assets/squares.png" alt="square-pattern">
+</span>
+<!--star-->>
+<span class="star">
+    <img src="/assets/start.png" alt="start-pattern">
+</span>
+
+
+
+<!--globe-->
+
+<span class="globe">
+    <img src="/assets/globe.png" alt="globe --patterns--">
+</span>
+<div class="imageshift">
+    <img style="height: 255px; width: 218px; margin-left: 75px;" src="/assets/Image.png" alt="person-hero-image">
+</div>
+
+<div class="hero-container-right">
+<h1 style="font-size:50px;" class="hero-heading">What’s Trend in 2025 ?</h1>
+<p style="font-size: 10px;margin-left: 70px; " class="hero description" >
+ Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  Minima veritatis<br> molestias eos eius voluptates aliquid? Nostrum doloremque<br>
+  animi hic. Possimus voluptas rerum qui aliquid quasi.
+</p>
+<div class="emai">
+    <button class="button-email">Email Address</button>
+    <button class="button-join"> JOIN NOW</button>
+</div>
+<div>
+<h4 class="contact-heading">Contact us</h4>
+<div class="icons">
+    <span>
+        <img src="/assets/Group.png"alt="facebook-icon">
+    </span>
+    <span>
+<img src="/assets/Group (1).png" alt="messanger-icon">
+    </span>
+    <span>
+        <img src="/assets/Group (2).png" alt="instagram-icon">
+    </span>
+    <span>
+        <img src="/assets/Group (3).png" alt="whatsapp-icon">
+    </span>
+</div>
+
+
+</div>
+</div>
+
+    </div>
+</section>
+
+
+
+</body>
+</html>
